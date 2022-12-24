@@ -1,5 +1,5 @@
 0b7126e0c6e86d3ec295a72f5aa6e0bd
-::res://::1671893444
+::res://::1671897585
 icon.svg::CompressedTexture2D::8127694599326190474::1671772711::1671772716::1::::<><>::
 README.md::TextFile::-1::1671862870::0::1::::<><>::
 ::res://Artwork/::1671893270
@@ -83,7 +83,13 @@ player-fishing-left-3.png::CompressedTexture2D::2554202202825312485::1664978246:
 player-fishing-right-1.png::CompressedTexture2D::2734046833945757462::1664978246::1671772790::1::::<><>::
 player-fishing-right-2.png::CompressedTexture2D::3632660493828538305::1664978246::1671772790::1::::<><>::
 player-fishing-right-3.png::CompressedTexture2D::2539106885624567472::1664978246::1671772790::1::::<><>::
-::res://Artwork/Player/idle/::1671772788
+::res://Artwork/Player/idle/::1671897585
+player-idle-front-1.png::CompressedTexture2D::1594916331105421237::1665495500::1671897586::1::::<><>::
+player-idle-front-2.png::CompressedTexture2D::930880664368994814::1665495500::1671897586::1::::<><>::
+player-idle-front-3.png::CompressedTexture2D::4812390820286616558::1665495500::1671897586::1::::<><>::
+player-idle-front-4.png::CompressedTexture2D::6361963081458694250::1665495500::1671897586::1::::<><>::
+player-idle-front-5.png::CompressedTexture2D::7272224041007706398::1665495500::1671897586::1::::<><>::
+player-idle-front-6.png::CompressedTexture2D::3500354906093456309::1665495500::1671897586::1::::<><>::
 ::res://Artwork/Player/idle/player-idle-back/::1671772790
 player-idle-back-1.png::CompressedTexture2D::6987273393398754279::1665496374::1671772790::1::::<><>::
 player-idle-back-2.png::CompressedTexture2D::3125280806737586754::1665496374::1671772790::1::::<><>::
@@ -92,13 +98,7 @@ player-idle-back-4.png::CompressedTexture2D::7854897445942375579::1665496374::16
 player-idle-back-5.png::CompressedTexture2D::945823929752916792::1665496374::1671772790::1::::<><>::
 player-idle-back-6.png::CompressedTexture2D::4822375011450034920::1665496374::1671772790::1::::<><>::
 player-idle-back-7.png::CompressedTexture2D::7306937446469390959::1665496374::1671772790::1::::<><>::
-::res://Artwork/Player/idle/player-idle-front/::1671772790
-player-idle-front-1.png::CompressedTexture2D::1594916331105421237::1665495500::1671772790::1::::<><>::
-player-idle-front-2.png::CompressedTexture2D::930880664368994814::1665495500::1671772790::1::::<><>::
-player-idle-front-3.png::CompressedTexture2D::4812390820286616558::1665495500::1671772790::1::::<><>::
-player-idle-front-4.png::CompressedTexture2D::6361963081458694250::1665495500::1671772790::1::::<><>::
-player-idle-front-5.png::CompressedTexture2D::7272224041007706398::1665495500::1671772790::1::::<><>::
-player-idle-front-6.png::CompressedTexture2D::3500354906093456309::1665495500::1671772790::1::::<><>::
+::res://Artwork/Player/idle/player-idle-front/::1671897585
 ::res://Artwork/Player/idle/player-idle-left/::1671772790
 player-idle-left-1.png::CompressedTexture2D::6880344880135871066::1665495676::1671772790::1::::<><>::
 player-idle-left-2.png::CompressedTexture2D::6207895619224635775::1665495676::1671772790::1::::<><>::
@@ -142,7 +142,8 @@ player-walk-right-3.png::CompressedTexture2D::2188054345359811264::1665495308::1
 player-walk-right-4.png::CompressedTexture2D::3384483373908770312::1665495308::1671772790::1::::<><>::
 player-walk-right-5.png::CompressedTexture2D::6366484040601825628::1665495308::1671772790::1::::<><>::
 player-walk-right-6.png::CompressedTexture2D::2868505420928986708::1665495308::1671772790::1::::<><>::
-::res://Artwork/Sprite Sheets/::1671893444
+::res://Artwork/Sprite Sheets/::1671895854
+Player.png::CompressedTexture2D::8856074065942255301::1671895854::1671895854::1::::<><>::
 Player_Attack.png::CompressedTexture2D::3068748895407983765::1671893228::1671893444::1::::<><>::
 Player_Idle.png::CompressedTexture2D::8652216033225357597::1671893235::1671893438::1::::<><>::
 Player_Run.png::CompressedTexture2D::3245179916811325619::1671893242::1671893273::1::::<><>::
@@ -150,8 +151,8 @@ Player_Run.png::CompressedTexture2D::3245179916811325619::1671893242::1671893273
 16x16 UI Elements 2.png::CompressedTexture2D::8723726116679984921::1664978246::1671772790::1::::<><>::
 Bar.png::CompressedTexture2D::2661472532615445604::1664978246::1671772790::1::::<><>::
 Heart.png::CompressedTexture2D::6523605103954892885::1664978246::1671772790::1::::<><>::
-::res://Prefabs/::1671893382
+::res://Prefabs/::1671895899
 Player.gd::GDScript::-1::1671866511::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::2628541083541693449::1671866511::0::1::::<><>::res://Prefabs/Player.gd<>uid://b7mwtfs6kkdp4<>uid://b7ndwvu8y65q5<>uid://dmdjaua4gj6hx<>uid://cvg0s4jcafuiv<>uid://df3dudygj2222<>uid://ca62u66kr8aua<>uid://desylw362vah2<>uid://bkxwduawjiatb<>uid://dbhukn3q0o4bm<>uid://jq1salt1l1uy<>uid://bpwj5gx8vb3qs<>uid://y4q8c7o4wt2d<>uid://bnky21g5uft5o<>uid://irfglshtsknh<>uid://cidri56m7ypon<>uid://c2t8uxl5cnlm4<>uid://bsyh5ylvutg7n<>uid://bwnthrh30r3bw<>uid://bwh6sny66rkee<>uid://xqhhjcxxeh1f<>uid://6f562kspcc8w<>uid://bohp7gmwxg82o<>uid://cwx8cdwuqpfj5<>uid://bg4r4ofm7txt1<>res://Prefabs/AnimationController.gd
-::res://Scenes/::1671864934
-Overworld.tscn::PackedScene::2821612974729032776::1671864934::0::1::::<><>::uid://bdpjxm44x0ky0
+Player.tscn::PackedScene::2628541083541693449::1671895899::0::1::::<><>::res://Prefabs/Player.gd<>uid://dyf7iml5r7swb
+::res://Scenes/::1671894800
+Overworld.tscn::PackedScene::2821612974729032776::1671894800::0::1::::<><>::uid://bdpjxm44x0ky0
