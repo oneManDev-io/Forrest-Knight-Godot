@@ -1,7 +1,8 @@
 0b7126e0c6e86d3ec295a72f5aa6e0bd
-::res://::1671862784
+::res://::1671893444
 icon.svg::CompressedTexture2D::8127694599326190474::1671772711::1671772716::1::::<><>::
-::res://Artwork/::1671772790
+README.md::TextFile::-1::1671862870::0::1::::<><>::
+::res://Artwork/::1671893270
 Fence Ruletile.png::CompressedTexture2D::7711839710014170760::1664978246::1671772790::1::::<><>::
 House Exterior.png::CompressedTexture2D::659787761796267858::1664978246::1671772790::1::::<><>::
 House Interior.png::CompressedTexture2D::973189268821835960::1664978246::1671772790::1::::<><>::
@@ -141,12 +142,16 @@ player-walk-right-3.png::CompressedTexture2D::2188054345359811264::1665495308::1
 player-walk-right-4.png::CompressedTexture2D::3384483373908770312::1665495308::1671772790::1::::<><>::
 player-walk-right-5.png::CompressedTexture2D::6366484040601825628::1665495308::1671772790::1::::<><>::
 player-walk-right-6.png::CompressedTexture2D::2868505420928986708::1665495308::1671772790::1::::<><>::
+::res://Artwork/Sprite Sheets/::1671893444
+Player_Attack.png::CompressedTexture2D::3068748895407983765::1671893228::1671893444::1::::<><>::
+Player_Idle.png::CompressedTexture2D::8652216033225357597::1671893235::1671893438::1::::<><>::
+Player_Run.png::CompressedTexture2D::3245179916811325619::1671893242::1671893273::1::::<><>::
 ::res://Artwork/UI/::1671772790
 16x16 UI Elements 2.png::CompressedTexture2D::8723726116679984921::1664978246::1671772790::1::::<><>::
 Bar.png::CompressedTexture2D::2661472532615445604::1664978246::1671772790::1::::<><>::
 Heart.png::CompressedTexture2D::6523605103954892885::1664978246::1671772790::1::::<><>::
-::res://Prefabs/::1671861293
-Player.gd::GDScript::-1::1671787367::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::2628541083541693449::1671861293::0::1::::<><>::res://Prefabs/Player.gd<>uid://b7mwtfs6kkdp4<>uid://b7ndwvu8y65q5<>uid://dmdjaua4gj6hx<>uid://cvg0s4jcafuiv<>uid://df3dudygj2222<>uid://ca62u66kr8aua<>uid://desylw362vah2<>uid://bkxwduawjiatb<>uid://dbhukn3q0o4bm<>uid://jq1salt1l1uy<>uid://bpwj5gx8vb3qs<>uid://y4q8c7o4wt2d<>uid://bnky21g5uft5o<>uid://irfglshtsknh<>uid://cidri56m7ypon<>uid://c2t8uxl5cnlm4<>uid://bsyh5ylvutg7n<>uid://bwnthrh30r3bw<>uid://bwh6sny66rkee<>uid://xqhhjcxxeh1f<>uid://6f562kspcc8w<>uid://bohp7gmwxg82o<>uid://cwx8cdwuqpfj5<>uid://bg4r4ofm7txt1
-::res://Scenes/::1671788971
-Overworld.tscn::PackedScene::2821612974729032776::1671788971::0::1::::<><>::uid://bdpjxm44x0ky0
+::res://Prefabs/::1671893382
+Player.gd::GDScript::-1::1671866511::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::2628541083541693449::1671866511::0::1::::<><>::res://Prefabs/Player.gd<>uid://b7mwtfs6kkdp4<>uid://b7ndwvu8y65q5<>uid://dmdjaua4gj6hx<>uid://cvg0s4jcafuiv<>uid://df3dudygj2222<>uid://ca62u66kr8aua<>uid://desylw362vah2<>uid://bkxwduawjiatb<>uid://dbhukn3q0o4bm<>uid://jq1salt1l1uy<>uid://bpwj5gx8vb3qs<>uid://y4q8c7o4wt2d<>uid://bnky21g5uft5o<>uid://irfglshtsknh<>uid://cidri56m7ypon<>uid://c2t8uxl5cnlm4<>uid://bsyh5ylvutg7n<>uid://bwnthrh30r3bw<>uid://bwh6sny66rkee<>uid://xqhhjcxxeh1f<>uid://6f562kspcc8w<>uid://bohp7gmwxg82o<>uid://cwx8cdwuqpfj5<>uid://bg4r4ofm7txt1<>res://Prefabs/AnimationController.gd
+::res://Scenes/::1671864934
+Overworld.tscn::PackedScene::2821612974729032776::1671864934::0::1::::<><>::uid://bdpjxm44x0ky0
