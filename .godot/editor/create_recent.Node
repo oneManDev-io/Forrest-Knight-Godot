@@ -1,5 +1,6 @@
-AnimatedSprite2D
+TileMap
 AnimationTree
+AnimatedSprite2D
 AnimationPlayer
 Sprite2D
 CollisionShape2D

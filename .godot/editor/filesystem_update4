@@ -1,4 +1,2 @@
-res://Prefabs/Player.tscn
-res://Prefabs/AnimationController.gd
 res://Scenes/Overworld.tscn
-res://Prefabs/Player.gd
+res://Prefabs/Player.tscn
