@@ -1,5 +1,5 @@
 0b7126e0c6e86d3ec295a72f5aa6e0bd
-::res://::1671973534
+::res://::1672065931
 icon.png::CompressedTexture2D::463414120717945221::1671958174::1671958184::1::::<><>::
 README.md::TextFile::-1::1671862870::0::1::::<><>::
 ::res://Artwork/::1671893270
@@ -151,8 +151,8 @@ Player_Run.png::CompressedTexture2D::3245179916811325619::1671905929::1671905985
 16x16 UI Elements 2.png::CompressedTexture2D::8723726116679984921::1664978246::1671772790::1::::<><>::
 Bar.png::CompressedTexture2D::2661472532615445604::1664978246::1671772790::1::::<><>::
 Heart.png::CompressedTexture2D::6523605103954892885::1664978246::1671772790::1::::<><>::
-::res://Prefabs/::1671965074
+::res://Prefabs/::1671989757
 Player.gd::GDScript::-1::1671963584::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::2628541083541693449::1671965074::0::1::::<><>::res://Prefabs/Player.gd<>uid://dyf7iml5r7swb
-::res://Scenes/::1671965074
-Overworld.tscn::PackedScene::2821612974729032776::1671965074::0::1::::<><>::uid://bdpjxm44x0ky0
+Player.tscn::PackedScene::2628541083541693449::1671989757::0::1::::<><>::res://Prefabs/Player.gd<>uid://dyf7iml5r7swb
+::res://Scenes/::1671989757
+Overworld.tscn::PackedScene::2821612974729032776::1671989757::0::1::::<><>::uid://bdpjxm44x0ky0<>uid://d1qw1fjxi0cqe
