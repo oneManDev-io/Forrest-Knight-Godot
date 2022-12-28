@@ -3,9 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://c6g8ukvdc0rwl" path="res://Artwork/Sprite Sheets/Cat/Cat.png" id="1_0i5gb"]
 [ext_resource type="Script" path="res://Prefabs/Cat.gd" id="1_hl1b0"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4iasj"]
-radius = 4.0
-height = 20.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mek1s"]
+size = Vector2(11, 7)
 
 [sub_resource type="Animation" id="Animation_h2nj1"]
 resource_name = "Cat_Idle_Back"
@@ -230,12 +229,11 @@ script = ExtResource("1_hl1b0")
 texture = ExtResource("1_0i5gb")
 hframes = 8
 vframes = 4
-frame = 10
+frame = 14
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(0, 4)
-shape = SubResource("CapsuleShape2D_4iasj")
+position = Vector2(0.5, 10.5)
+shape = SubResource("RectangleShape2D_mek1s")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -247,5 +245,9 @@ tree_root = SubResource("AnimationNodeStateMachine_2dibb")
 anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/playback = SubResource("AnimationNodeStateMachinePlayback_oqyd3")
-parameters/Idle/blend_position = Vector2(0.0444853, -0.49476)
-parameters/Walk/blend_position = Vector2(0.175919, 0.254585)
+parameters/Idle/blend_position = Vector2(-0.669302, -0.187336)
+parameters/Walk/blend_position = Vector2(-0.0222427, -0.696507)
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
