@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bgg2s213pud2w"]
+[gd_scene load_steps=6 format=3 uid="uid://bgg2s213pud2w"]
 
-[ext_resource type="PackedScene" uid="uid://bdpjxm44x0ky0" path="res://Prefabs/Player.tscn" id="1_bibno"]
+[ext_resource type="PackedScene" uid="uid://3gwiipd3nlt6" path="res://Prefabs/Player.tscn" id="1_bibno"]
 [ext_resource type="Texture2D" uid="uid://d1qw1fjxi0cqe" path="res://Artwork/Tilemap 1.png" id="1_y5ygv"]
+[ext_resource type="PackedScene" uid="uid://dcd47gxwuctf6" path="res://Prefabs/Cat.tscn" id="3_e0a6t"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hx7pi"]
 texture = ExtResource("1_y5ygv")
@@ -259,3 +260,5 @@ drag_top_margin = 0.4
 drag_right_margin = 0.4
 drag_bottom_margin = 0.4
 editor_draw_drag_margin = true
+
+[node name="Cat" parent="." instance=ExtResource("3_e0a6t")]

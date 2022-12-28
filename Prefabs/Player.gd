@@ -8,30 +8,27 @@ extends CharacterBody2D
 @onready var stateMachine = animationTree.get("parameters/playback")
 
 func _ready():
-	update_animation_parameters(facingDirection)
+	updateAnimation(facingDirection)
 
 func _physics_process(delta):
-
+	
 	var inputVector = Vector2(
 		Input.get_action_strength("right") - Input.get_action_strength("left"),
 		Input.get_action_strength("down") - Input.get_action_strength("up")
 	)
 
-	update_animation_parameters(inputVector)
-
 	velocity = inputVector.normalized() * moveSpeed;
 
-
+	updateAnimation(inputVector)
 	move_and_slide()
-	
-	pick_new_state()
+	pickNewState()
 
-func update_animation_parameters(moveInput : Vector2):
+func updateAnimation(moveInput : Vector2):
 	if(moveInput != Vector2.ZERO):
 		animationTree.set("parameters/Idle/blend_position", moveInput)
 		animationTree.set("parameters/Run/blend_position", moveInput)
 
-func pick_new_state():
+func pickNewState():
 	if(velocity != Vector2.ZERO):
 		stateMachine.travel("Run")
 	else:

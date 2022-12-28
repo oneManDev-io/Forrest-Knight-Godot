@@ -1,7 +1,7 @@
-[gd_scene load_steps=29 format=3 uid="uid://bdpjxm44x0ky0"]
+[gd_scene load_steps=29 format=3 uid="uid://3gwiipd3nlt6"]
 
 [ext_resource type="Script" path="res://Prefabs/Player.gd" id="1_d11oy"]
-[ext_resource type="Texture2D" uid="uid://dyf7iml5r7swb" path="res://Artwork/Sprite Sheets/Player.png" id="2_dfdbi"]
+[ext_resource type="Texture2D" uid="uid://dyf7iml5r7swb" path="res://Artwork/Sprite Sheets/Player/Player.png" id="2_ncd6i"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5s72r"]
 radius = 6.0
@@ -226,11 +226,12 @@ advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ka2ty"]
 states/Idle/node = SubResource("AnimationNodeBlendSpace2D_3tycg")
-states/Idle/position = Vector2(386, 100)
+states/Idle/position = Vector2(385, 100)
 states/Run/node = SubResource("AnimationNodeBlendSpace2D_vj0fn")
 states/Run/position = Vector2(571, 100)
 states/Start/position = Vector2(213, 100)
 transitions = ["Idle", "Run", SubResource("AnimationNodeStateMachineTransition_xx8p2"), "Run", "Idle", SubResource("AnimationNodeStateMachineTransition_wolij"), "Start", "Idle", SubResource("AnimationNodeStateMachineTransition_jfbng")]
+graph_offset = Vector2(-101, -27)
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id="AnimationNodeStateMachinePlayback_oq10u"]
 
@@ -238,7 +239,7 @@ transitions = ["Idle", "Run", SubResource("AnimationNodeStateMachineTransition_x
 script = ExtResource("1_d11oy")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_dfdbi")
+texture = ExtResource("2_ncd6i")
 hframes = 8
 vframes = 4
 frame = 1

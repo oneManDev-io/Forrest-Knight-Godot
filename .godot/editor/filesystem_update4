@@ -1,2 +1,4 @@
-res://Prefabs/Player.tscn
+res://Prefabs/Cat.tscn
+res://Prefabs/Cat.gd
 res://Scenes/Overworld.tscn
+res://Prefabs/Player.tscn
