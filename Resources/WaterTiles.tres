@@ -1,0 +1,10 @@
+[gd_resource type="AnimatedTexture" load_steps=3 format=3 uid="uid://6d607kpkqoq1"]
+
+[ext_resource type="Texture2D" uid="uid://cdcbe7g46bi6y" path="res://Artwork/Animated Tiles/Sprites/Tileset1.png" id="1_sv42w"]
+[ext_resource type="Texture2D" uid="uid://bdk2s7abj2s3v" path="res://Artwork/Animated Tiles/Sprites/Tileset2.png" id="2_sx3g1"]
+
+[resource]
+frames = 2
+frame_0/texture = ExtResource("1_sv42w")
+frame_1/texture = ExtResource("2_sx3g1")
+frame_1/duration = 1.0

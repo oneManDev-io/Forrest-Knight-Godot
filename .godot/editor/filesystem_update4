@@ -1,4 +1,4 @@
 res://Scenes/Overworld.tscn
+res://Scenes/Water.gd
 res://Prefabs/Player.tscn
 res://Prefabs/Cat.tscn
-res://Prefabs/Cat.gd
